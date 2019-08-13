@@ -1,0 +1,269 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #3c3c3c;
+    margin: 0px;
+}
+
+img {
+    vertical-align: middle;
+	border-style: none;
+}
+
+
+div {
+    display: block;
+}
+
+h1 {
+    display: block;
+    font-size: 20 px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+
+header {
+    display: block;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  
+}
+
+
+.header {
+    position: relative;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #FFF;
+    background-image: linear-gradient(to right, #FFF, #FFF);
+}
+
+.header-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 27%;
+}
+
+.header-b {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+
+}
+
+.header-content h1 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 45px;
+    line-height: 60px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.header-content p {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 3px;
+}
+
+.header-icon {
+    margin: 0 auto;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    right: 0;
+}
+
+
+.sections-content {
+    margin: 0 auto;
+    width: 47%;
+    padding-top: 140px;
+    padding-bottom: 160px;
+}
+
+.sections-content-inner {
+    width: 62%;
+    margin: 0 auto;
+}
+
+.sections-content fieldset {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    border: 2px solid #3c3c3c;
+}
+
+.sections-content legend {
+    display: block;
+    margin: 0 auto;
+    width: 47%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.sections-content p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+
+
+.section-services {
+    color: #ffffff;
+    background-image: url('img/rev.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.section-services .sections-content {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.section-services fieldset {
+    border: 2px solid #ffffff;
+}
+
+#rama {
+    border: 2px solid #ffffff;
+}
+
+
+
+.section-what fieldset {
+    padding-top: 20px;
+    padding-bottom: 65px;
+}
+
+.section-what img {
+    margin-top: 80px;
+}
+
+.section-what h3 {
+    margin: 35px 0;
+    font-size: 25px;
+    line-height: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.section-what p {
+    font-size: 15px;
+}
+
+
+
+.section-gallery box-sizing {
+	border: box;
+}
+
+.gallery-row {
+    margin-bottom: 0.75%;
+    overflow: hidden;
+}
+
+.gallery-item {
+    float: left;
+    position: relative;
+    width: 28.5%;
+    margin-right: 0.75%;
+}
+
+.gallery-item-wide {
+    width: 41.5%;
+}
+
+.gallery-item:last-child {
+    margin-right: 0;
+}
+
+.gallery-item h2 {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    margin: 0;
+    color: #FFF;
+    font-size: 40px;
+    line-height: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.gallery-item img {
+    height: auto;
+    width: 100%;
+    border-radius: 15px
+}
+
+
+.section-contact button {
+    width: 70%;
+    height: 60px;
+    padding: 0;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #3c3c3c;
+    cursor: pointer;
+}
+
+.section-contact .sections-content {
+    padding-bottom: 0;
+}
+
+.contact-bottom-line {
+    text-align: center;
+    font-size: 20px;
+    margin: 65px 0;
+}
+
+.contact-bottom-line img {
+    margin-right: 25px;
+}
+
+
+.sections-content fieldset {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    border: 2px solid #3c3c3c;
+}
+
+.sections-content legend {
+    display: block;
+    margin: 0 auto;
+    width: 47%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+.sections-content p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
